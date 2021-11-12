@@ -1,0 +1,186 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 24
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C193
+U 1 1 5E6149EF
+P 3500 2500
+F 0 "C193" V 3650 2450 50  0000 L CNN
+F 1 "100n 100V" V 3350 2300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3538 2350 50  0001 C CNN
+F 3 "~" H 3500 2500 50  0001 C CNN
+	1    3500 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 3000 3500 3000
+Wire Wire Line
+	7500 2000 7500 2350
+Wire Wire Line
+	7000 2000 7000 2350
+Connection ~ 7000 2000
+Wire Wire Line
+	7000 2000 7500 2000
+Wire Wire Line
+	6500 2000 6500 2350
+Connection ~ 6500 2000
+Wire Wire Line
+	6500 2000 7000 2000
+Wire Wire Line
+	6000 2000 6000 2350
+Connection ~ 6000 2000
+Wire Wire Line
+	6000 2000 6500 2000
+Wire Wire Line
+	3500 2000 3500 2350
+Wire Wire Line
+	4000 2000 4000 2350
+Wire Wire Line
+	4500 2000 4500 2350
+Wire Wire Line
+	5000 2000 5000 2350
+Connection ~ 4000 2000
+Wire Wire Line
+	4000 2000 4500 2000
+Connection ~ 4500 2000
+Wire Wire Line
+	4500 2000 5000 2000
+Connection ~ 5000 2000
+Wire Wire Line
+	5000 2000 6000 2000
+Connection ~ 4000 3000
+Wire Wire Line
+	4000 3000 3500 3000
+Connection ~ 4500 3000
+Wire Wire Line
+	4500 3000 4000 3000
+Connection ~ 5000 3000
+Wire Wire Line
+	5000 3000 4500 3000
+Wire Wire Line
+	7500 3000 7000 3000
+Connection ~ 7000 3000
+Wire Wire Line
+	7000 3000 6500 3000
+Connection ~ 6500 3000
+Wire Wire Line
+	6500 3000 6000 3000
+Connection ~ 6000 3000
+Wire Wire Line
+	6000 3000 5000 3000
+Wire Wire Line
+	3500 2650 3500 3000
+Wire Wire Line
+	4000 2650 4000 3000
+Wire Wire Line
+	4500 2650 4500 3000
+Wire Wire Line
+	5000 2650 5000 3000
+Wire Wire Line
+	6000 2650 6000 3000
+Wire Wire Line
+	6500 2650 6500 3000
+Wire Wire Line
+	7000 2650 7000 3000
+Wire Wire Line
+	7500 2650 7500 3000
+Connection ~ 3500 3000
+Wire Wire Line
+	3000 4000 3500 4000
+Wire Wire Line
+	3000 2000 3500 2000
+Connection ~ 3500 2000
+Wire Wire Line
+	3500 2000 4000 2000
+Wire Wire Line
+	3500 4000 3500 4350
+Wire Wire Line
+	6000 4000 6000 4350
+Connection ~ 3500 4000
+Wire Wire Line
+	6000 4650 6000 5000
+Wire Wire Line
+	3000 5000 3500 5000
+Wire Wire Line
+	3500 4650 3500 5000
+Connection ~ 3500 5000
+Text GLabel 3000 4000 0    118  Input ~ 0
+HV_2
+Text GLabel 3000 2000 0    118  Input ~ 0
+substrate
+Text GLabel 3000 3000 0    118  Input ~ 0
+GNDA
+Text GLabel 3000 5000 0    118  Input ~ 0
+GNDA
+Wire Wire Line
+	3500 4000 6000 4000
+Wire Wire Line
+	3500 5000 6000 5000
+$Comp
+L Device:C C194
+U 1 1 5E65A5AE
+P 4000 2500
+F 0 "C194" V 4150 2450 50  0000 L CNN
+F 1 "100n 100V" V 3850 2300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4038 2350 50  0001 C CNN
+F 3 "~" H 4000 2500 50  0001 C CNN
+	1    4000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C197
+U 1 1 5E65C239
+P 6000 2500
+F 0 "C197" V 6150 2450 50  0000 L CNN
+F 1 "10n 100V" V 5850 2300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6038 2350 50  0001 C CNN
+F 3 "~" H 6000 2500 50  0001 C CNN
+	1    6000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C198
+U 1 1 5E65CDFE
+P 6500 2500
+F 0 "C198" V 6650 2450 50  0000 L CNN
+F 1 "10n 100V" V 6350 2300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6538 2350 50  0001 C CNN
+F 3 "~" H 6500 2500 50  0001 C CNN
+	1    6500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C201
+U 1 1 5E65F4B4
+P 3500 4500
+F 0 "C201" V 3650 4450 50  0000 L CNN
+F 1 "100n 100V" V 3350 4300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3538 4350 50  0001 C CNN
+F 3 "~" H 3500 4500 50  0001 C CNN
+	1    3500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C202
+U 1 1 5E660822
+P 6000 4500
+F 0 "C202" V 6150 4450 50  0000 L CNN
+F 1 "10n 100V" V 5850 4300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6038 4350 50  0001 C CNN
+F 3 "~" H 6000 4500 50  0001 C CNN
+	1    6000 4500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
